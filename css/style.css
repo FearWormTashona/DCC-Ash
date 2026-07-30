@@ -1,8 +1,6 @@
 @font-face {
   font-family: 'DCC Ash';
-  src: url('../fonts/dcc-ash.woff2') format('woff2'),
-       url('../fonts/dcc-ash.woff') format('woff'),
-       url('../fonts/dcc-ash.ttf') format('truetype');
+  src: url('../fonts/dcc-ash.otf') format('otf'),
   font-weight: normal;
   font-style: normal;
   font-display: swap; /* Prevents invisible text while loading */
