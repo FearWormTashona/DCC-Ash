@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'DCC Ash';
-  src: url('../fonts/dcc-ash.otf') format('opentype');
+  src: url('../fonts/dcc-ash.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
   font-display: swap; /* Prevents invisible text while loading */
