@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'DCC Ash';
+  src: url('../fonts/dcc-ash.woff2') format('woff2'),
+       url('../fonts/dcc-ash.woff') format('woff'),
+       url('../fonts/dcc-ash.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; /* Prevents invisible text while loading */
+}
+
+/* 2. CSS RESET & GLOBAL VARIABLES */
+:root {
+  --primary-color: #333333;
+  --bg-color: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 3. BASE STYLES */
+body {
+  font-family: 'DCC Ash', sans-serif;
+  background-color: var(--bg-color);
+  color: var(--primary-color);
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* 4. TYPOGRAPHY EXAMPLES */
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
