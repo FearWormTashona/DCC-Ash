@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'DCC Ash';
-  src: url('../fonts/dcc-ash.otf') format('otf'),
+  src: url('../fonts/dcc-ash.otf') format('otf');
   font-weight: normal;
   font-style: normal;
   font-display: swap; /* Prevents invisible text while loading */
@@ -31,9 +31,13 @@ body {
 h1 {
   font-size: 2.5rem;
   margin-bottom: 1rem;
+  font-family: 'DCC Ash';
+  src: url('../fonts/dcc-ash.otf') format('otf');
 }
 
 p {
   font-size: 1rem;
   margin-bottom: 1rem;
+  font-family: 'DCC Ash';
+  src: url('../fonts/dcc-ash.otf') format('otf');
 }
